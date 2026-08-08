@@ -4,7 +4,3 @@ services:
     env: docker
     plan: free
     numInstances: 1
-    disk:
-      name: changedetection-data
-      mountPath: /datastore
-      sizeGB: 1
